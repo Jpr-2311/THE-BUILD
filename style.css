@@ -149,7 +149,7 @@ body {
   color: #333;
 }
 
-/* Subtle hover (desktop only) */
+/* Subtle hover */
 @media (hover: hover) {
   .service-item:hover {
     transform: translateX(6px);
