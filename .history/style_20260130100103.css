@@ -1,0 +1,214 @@
+/* =========================
+   ROOT + BASE
+========================= */
+
+:root {
+  --section-space: 80px;
+  --section-space-sm: 60px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar-brand {
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.navbar {
+  background: #ffffff;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero-section {
+  padding-top: calc(var(--section-space) + 40px); /* navbar offset */
+  padding-bottom: var(--section-space);
+}
+
+.hero-title {
+  font-size: clamp(2.8rem, 5vw, 4.2rem);
+  line-height: 1.1;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  max-width: 520px;
+  margin-bottom: 14px;
+}
+
+.hero-subtext {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+  max-width: 520px;
+}
+
+.hero-image {
+  max-width: 95%;
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+  transition: transform 0.35s ease;
+}
+
+@media (hover: hover) {
+  .hero-image:hover {
+    transform: translateY(-6px);
+  }
+}
+
+/* =========================
+   SHARED SECTION STYLES
+========================= */
+
+.section-kicker {
+  display: inline-block;
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 16px;
+}
+
+.section-description {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+/* =========================
+   PHILOSOPHY SECTION
+========================= */
+
+.philosophy-section {
+  padding: var(--section-space) 0;
+}
+
+.philosophy-image-wrapper {
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.12);
+}
+
+/*   SERVICES SECTION*/
+
+.services-section {
+  padding: var(--section-space) 0;
+}
+
+.services-image {
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+}
+
+.service-item {
+  padding: 18px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.service-item:last-child {
+  border-bottom: none;
+}
+
+.service-item h5 {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.service-item p {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #333;
+}
+
+@media (hover: hover) {
+  .service-item:hover {
+    transform: translateX(4px);
+    transition: transform 0.3s ease;
+  }
+}
+
+/*FOCUS SECTION*/
+
+.focus-section {
+  padding: var(--section-space-sm) 0;
+}
+
+.focus-card {
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  padding-bottom: 22px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.focus-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.focus-card h5 {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin: 16px 20px 6px;
+}
+
+.focus-card p {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: #333;
+  margin: 0 20px;
+}
+
+@media (hover: hover) {
+  .focus-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 22px 45px rgba(0, 0, 0, 0.14);
+  }
+}
+
+/*FOOTER*/
+
+.footer {
+  padding: 30px 0;
+}
+
+.footer p {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 22px;
+  color: #000;
+  transition: opacity 0.25s ease;
+}
+
+.social-icons a:hover {
+  opacity: 0.6;
+}

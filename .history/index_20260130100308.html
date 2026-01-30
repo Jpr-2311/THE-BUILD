@@ -9,20 +9,26 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Flowbite -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet">
 
   <!-- Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg bg-white fixed-top border-bottom">
+<!-- =========================
+     NAVBAR
+========================= -->
+<nav class="navbar navbar-expand-lg fixed-top border-bottom">
   <div class="container">
-    <a class="navbar-brand brand-logo" href="#">THE BUILD</a>
+    <a class="navbar-brand fw-bold" href="#">THE BUILD</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
@@ -38,11 +44,14 @@
   </div>
 </nav>
 
-<!-- HERO / WHO WE ARE -->
+<!-- =========================
+     HERO / WHO WE ARE
+========================= -->
 <section id="who" class="hero-section">
   <div class="container">
-    <div class="row align-items-center gy-4">
+    <div class="row align-items-center gy-5">
 
+      <!-- Text -->
       <div class="col-lg-6">
         <h1 class="hero-title">
           Build your voice.<br>
@@ -56,16 +65,18 @@
         </p>
 
         <p class="hero-subtext">
-          We believe communication is not talent - it is a skill that can be built.
+          We believe communication is not talent — it is a skill that can be built.
           Leaders are shaped through structure, practice, and the courage to speak.
         </p>
       </div>
 
+      <!-- Image -->
       <div class="col-lg-6 text-center">
         <img
           src="https://images.unsplash.com/photo-1594122230689-45899d9e6f69?q=80&w=1400&auto=format&fit=crop"
-          class="img-fluid rounded hero-image"
           alt="Public speaking"
+          class="img-fluid hero-image"
+          loading="lazy"
         />
       </div>
 
@@ -73,7 +84,9 @@
   </div>
 </section>
 
-<!-- OUR PHILOSOPHY -->
+<!-- =========================
+     PHILOSOPHY
+========================= -->
 <section class="philosophy-section bg-light">
   <div class="container">
 
@@ -94,13 +107,14 @@
       </div>
     </div>
 
-    <div class="row justify-content-center mt-3">
+    <div class="row justify-content-center mt-4">
       <div class="col-lg-9">
         <div class="philosophy-image-wrapper">
           <img
             src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1400&auto=format&fit=crop"
-            class="img-fluid rounded"
             alt="Leadership discussion"
+            class="img-fluid"
+            loading="lazy"
           />
         </div>
       </div>
@@ -109,7 +123,9 @@
   </div>
 </section>
 
-<!-- SERVICES -->
+<!-- =========================
+     SERVICES
+========================= -->
 <section id="services" class="services-section">
   <div class="container">
 
@@ -118,21 +134,25 @@
         <span class="section-kicker">WHAT WE DO</span>
         <h2 class="section-title">We build confident communicators</h2>
         <p class="section-description">
-          Our work focuses on clarity, confidence, and presence - the foundations of effective communication.
+          Our work focuses on clarity, confidence, and presence —
+          the foundations of effective communication.
         </p>
       </div>
     </div>
 
-    <div class="row align-items-center gy-4">
+    <div class="row align-items-center gy-5">
 
+      <!-- Image -->
       <div class="col-lg-6">
         <img
           src="https://i.pinimg.com/1200x/4c/de/9b/4cde9be3286d7e6378273eb435f69a1f.jpg"
-          class="img-fluid rounded services-image"
-          alt="Public speaking practice"
+          alt="Communication training"
+          class="img-fluid services-image"
+          loading="lazy"
         />
       </div>
 
+      <!-- Content -->
       <div class="col-lg-6">
         <div class="service-item">
           <h5>Public Speaking Development</h5>
@@ -154,7 +174,9 @@
   </div>
 </section>
 
-<!-- FOCUS AREAS -->
+<!-- =========================
+     FOCUS
+ -->
 <section id="impact" class="focus-section bg-light">
   <div class="container">
 
@@ -170,55 +192,52 @@
     </div>
 
     <div class="row g-4">
-
       <div class="col-md-4">
         <div class="focus-card">
-          <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?q=80&w=1200" alt="Confidence">
+          <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?q=80&w=1200&auto=format&fit=crop" alt="Confidence">
           <h5>Confidence through expression</h5>
-          <p>
-            Building the ability to speak openly, clearly,
-            and without hesitation.
-          </p>
+          <p>Building the ability to speak openly, clearly, and without hesitation.</p>
         </div>
       </div>
 
       <div class="col-md-4">
         <div class="focus-card">
-          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1200" alt="Leadership">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1200&auto=format&fit=crop" alt="Leadership">
           <h5>Leadership through communication</h5>
-          <p>
-            Helping individuals lead conversations,
-            not just participate in them.
-          </p>
+          <p>Helping individuals lead conversations, not just participate.</p>
         </div>
       </div>
 
       <div class="col-md-4">
         <div class="focus-card">
-          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200" alt="Growth">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop" alt="Growth">
           <h5>Growth through clarity and practice</h5>
-          <p>
-            Strengthening communication through repetition,
-            reflection, and structured learning.
-          </p>
+          <p>Strengthening communication through repetition and structure.</p>
         </div>
       </div>
-
     </div>
+
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="footer bg-white border-top">
+<!--FOOTER-->
+<footer class="footer border-top">
   <div class="container text-center">
-    <p class="mb-2 fw-bold">THE BUILD</p>
+    <p>THE BUILD</p>
     <div class="social-icons">
-      <a href="#"><i class="fab fa-linkedin"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/company/the-buildd/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/the__build_?igsh=eHBiaDFsb3Ewczh1" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
     </div>
   </div>
 </footer>
 
+<!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+
 </body>
 </html>

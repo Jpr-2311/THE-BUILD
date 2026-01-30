@@ -158,9 +158,9 @@ body {
   opacity: 0.6;
 }
 .brand-logo {
-  font-size: 1.4rem;        /* big but classy */
+  font-size: 1.6rem;        /* big but classy */
   font-weight: 900;
-  letter-spacing: 0.1em;    /* strong identity */
+  letter-spacing: 0.3em;    /* strong identity */
   text-transform: uppercase;
   color: #000;
 }
